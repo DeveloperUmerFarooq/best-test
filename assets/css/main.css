@@ -283,7 +283,6 @@ header{
     transform: translateY(-3px);
     color: #f8f9fa;
   }
-  
   .icon-container {
     display: flex;
     flex-direction: column;
