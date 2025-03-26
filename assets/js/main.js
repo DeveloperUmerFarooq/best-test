@@ -23,13 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
     ...fadeUp,
     duration: 0.7,
     stagger: 0.07,
-    ease: "back.out(1.7)"
+    ease: "back.out(1.7)",
+    delay:1,
   });
 
   gsap.from("#sub-title, #hero-button", {
     ...fadeUp,
     duration: 0.95,
-    delay: 0.3,
+    delay: 1.3,
     stagger: 0.1
   });
 
