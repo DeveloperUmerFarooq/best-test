@@ -55,8 +55,9 @@ video {
 }
 .home-page .hero-section {
     background: url("https://wallpapercat.com/w/full/c/6/0/5818200-1920x1080-desktop-hd-cool-car-background.jpg") no-repeat center fixed;
-    max-width: 100%;
+    max-width: 100vw;
     height: 100vh; 
+    overflow-x: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,7 +196,9 @@ header {
     border: none !important;
     outline: none;
 }
-
+.navbar{
+    max-width: 100% !important;
+}
 .navbar-toggler:focus {
     border: none !important;
     outline: none !important;

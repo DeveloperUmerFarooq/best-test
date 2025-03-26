@@ -44,13 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  aboutTl.from("#about-text", { x: 20, y: 50, opacity: 0, scale: 0 })
+  aboutTl.from("#about-text", { x: 10, y: 50, opacity: 0, scale: 0 })
          .from("#about-top-text",{y:-50,opacity:0,duraction:1})
-         .from("#about-side-text", { x: 50, opacity: 0, duration: 1 })
+         .from("#about-side-text", { x: 10, opacity: 0, duration: 1 })
          .from("#about-img", { scale: 0, duration: 1 })
          .from("#about-below-text", { opacity: 0, y: 100, duration: 1 })
-         .from("#about-btn-1", { x: -100, duration: 1 })
-         .from("#about-btn-2", { x: 100, duration: 1 }, "-=1");
+         .from("#about-btn-1", { x: -10, duration: 1 })
+         .from("#about-btn-2", { x: 10, duration: 1 }, "-=1");
 
   
 
