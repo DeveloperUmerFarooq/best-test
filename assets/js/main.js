@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.from("#sub-title, #hero-button", {
     ...fadeUp,
     duration: 0.95,
-    delay: 1.3,
+    delay: 0.6,
     stagger: 0.1
   });
 
