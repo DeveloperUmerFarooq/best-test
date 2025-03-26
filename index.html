@@ -24,58 +24,81 @@
   </head>
 
   <body>
-    <div class="p-2 row justify-content-between align-items-center justify-content-lg-start">
-      <div class="p-2 col  text-center text-lg-start">
-        <img src="./assets/images/Logo.svg" height="100" alt="">
-      </div>
-      <div class="text-white col d-flex justify-content-center justify-content-lg-end">
-        <a href="tel:301(474)-6099">
-          <lottie-player
-            src="./assets/lotties/Phone.json"
-            background="transparent"
-            speed="1"
-            style="width: 80px; height: 80px"
-            loop
-            autoplay
-          >
-          </lottie-player>
-        </a>
-        <a href="mailto:arservicecenter01@gmail.com">
-          <lottie-player
-            src="./assets/lotties/Mail.json"
-            background="transparent"
-            speed="1"
-            style="width: 80px; height: 80px"
-            loop
-            autoplay
-          >
-          </lottie-player>
-        </a>
-        <a
-            href="https://www.facebook.com/bestautorepairandtires/"
-            target="_blank"
-          >
-            <lottie-player
-              src="./assets/lotties/Facebook.json"
-              background="transparent"
-              speed="1"
-              style="width: 90px; height: 90px"
-              loop
-              autoplay
-            >
-            </lottie-player>
-          </a>
-          <a href="https://www.instagram.com/bestautorepairs/" target="_blank">
-            <lottie-player
-              src="./assets/lotties/Instagram.json"
-              background="transparent"
-              speed="1"
-              style="width: 90px; height: 90px"
-              loop
-              autoplay
-            >
-            </lottie-player>
-          </a>
+    <div class="container-fluid px-3 px-md-5 py-2 py-lg-3 bg-dark">
+      <div class="row align-items-center">
+        <!-- Logo Column -->
+        <div class="col-12 col-lg-4 text-center text-lg-start mb-2 mb-lg-0">
+          <img src="./assets/images/Logo.svg" alt="Company Logo" class="img-fluid" style="max-height: 80px; width: auto;">
+        </div>
+        
+        <!-- Contact Icons Column -->
+        <div class="col-12 col-lg-8">
+          <div class="d-flex justify-content-center justify-content-lg-end align-items-center flex-wrap gap-2 gap-md-3">
+            <!-- Phone -->
+            <a href="tel:3014746099" class="icon-link" aria-label="Call us">
+              <div class="icon-container">
+                <lottie-player
+                  src="./assets/lotties/Phone.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 60px; height: 60px"
+                  loop
+                  autoplay
+                  hover
+                ></lottie-player>
+                <span class="icon-label d-none d-md-inline">Call Us</span>
+              </div>
+            </a>
+            
+            <!-- Email -->
+            <a href="mailto:arservicecenter01@gmail.com" class="icon-link" aria-label="Email us">
+              <div class="icon-container">
+                <lottie-player
+                  src="./assets/lotties/Mail.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 60px; height: 60px"
+                  loop
+                  autoplay
+                  hover
+                ></lottie-player>
+                <span class="icon-label d-none d-md-inline">Email Us</span>
+              </div>
+            </a>
+            
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/bestautorepairandtires/" target="_blank" class="icon-link" aria-label="Facebook">
+              <div class="icon-container">
+                <lottie-player
+                  src="./assets/lotties/Facebook.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 65px; height: 65px"
+                  loop
+                  autoplay
+                  hover
+                ></lottie-player>
+                <span class="icon-label d-none d-md-inline">Facebook</span>
+              </div>
+            </a>
+            
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/bestautorepairs/" target="_blank" class="icon-link" aria-label="Instagram">
+              <div class="icon-container">
+                <lottie-player
+                  src="./assets/lotties/Instagram.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 65px; height: 65px"
+                  loop
+                  autoplay
+                  hover
+                ></lottie-player>
+                <span class="icon-label d-none d-md-inline">Instagram</span>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <header>

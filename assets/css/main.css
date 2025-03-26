@@ -21,13 +21,13 @@
     box-sizing: border-box;
     font-family: "Liberation Sans";
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 *::-webkit-scrollbar{
     display: none;
 }
 body{
     background:var(--gradient);
-    overflow-x: hidden;
 } 
 .about-page,.home-page{
     color: var(--color2);
@@ -288,3 +288,47 @@ header {
         transform: perspective(500px) translateY(0) translateZ(0) scale(1);
     }
 }
+
+.icon-link {
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-link:hover {
+    transform: translateY(-3px);
+    color: #f8f9fa;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .icon-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .icon-link {
+      margin: 0 5px;
+    }
+    
+    lottie-player {
+      width: 50px !important;
+      height: 50px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    lottie-player {
+      width: 45px !important;
+      height: 45px !important;
+    }
+  }
