@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     duration: 0.7,
     stagger: 0.07,
     ease: "back.out(1.7)",
-    delay:1,
+    delay:0.4,
   });
 
   gsap.from("#sub-title, #hero-button", {
