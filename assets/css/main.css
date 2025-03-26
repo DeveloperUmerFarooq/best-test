@@ -272,23 +272,6 @@ header {
 #about-top-text{
     font-size: clamp(1.2rem, 3vw, 1.7rem);
 }
-@keyframes logo {
-    from{
-        opacity: 0;
-        scale: 0;
-    }
-}
-@keyframes card-animation {
-    from {
-        opacity: 0;
-        transform: perspective(500px) translateY(50px) translateZ(100px) scale(0.5);
-    }
-    to {
-        opacity: 1;
-        transform: perspective(500px) translateY(0) translateZ(0) scale(1);
-    }
-}
-
 .icon-link {
     transition: transform 0.3s ease;
     text-decoration: none;
@@ -313,8 +296,24 @@ header {
     font-size: 0.85rem;
     font-weight: 500;
   }
+@keyframes logo {
+    from{
+        opacity: 0;
+        scale: 0;
+    }
+}
+@keyframes card-animation {
+    from {
+        opacity: 0;
+        transform: perspective(500px) translateY(50px) translateZ(100px) scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: perspective(500px) translateY(0) translateZ(0) scale(1);
+    }
+}
+
   
-  /* Responsive adjustments */
   @media (max-width: 768px) {
     .icon-link {
       margin: 0 5px;
