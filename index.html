@@ -28,12 +28,28 @@
       <div class="row align-items-center">
         <!-- Logo Column -->
         <div class="col-12 col-lg-4 text-center text-lg-start mb-2 mb-lg-0">
-          <img src="./assets/images/Logo.svg" alt="Company Logo" class="img-fluid" style="max-height: 80px; width: auto;">
+          <img src="./assets/images/Logo.svg" alt="Company Logo" class="img-fluid logo" style="max-height: 80px; width: auto;">
         </div>
         
         <!-- Contact Icons Column -->
         <div class="col-12 col-lg-8">
           <div class="d-flex justify-content-center justify-content-lg-end align-items-center flex-wrap gap-2 gap-md-3">
+            <!-- Location -->
+            <a href="https://maps.google.com/maps/dir//Best+Auto+Repair+and+Tire+6001+Greenbelt+Rd+Berwyn+Heights,+MD+20740/@38.9975207,-76.9115946,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89b7c3ccfed28ec7:0x45863190036a0847"
+            target="_blank"  class="icon-link" aria-label="Call us">
+              <div class="icon-container">
+                <lottie-player
+                  src="./assets/lotties/Address.json"
+                  background="transparent"
+                  speed="1"
+                  style="width: 60px; height: 60px"
+                  loop
+                  autoplay
+                ></lottie-player>
+                <span class="icon-label d-none d-md-inline">Our Location</span>
+              </div>
+            </a>
+
             <!-- Phone -->
             <a href="tel:3014746099" class="icon-link" aria-label="Call us">
               <div class="icon-container">
@@ -102,9 +118,8 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img
-              id="logo"
               src="./assets/images/Logo.svg"
-              class="rounded-2"
+              class="rounded-2 logo"
               width="80"
               height="10%"
               alt=""

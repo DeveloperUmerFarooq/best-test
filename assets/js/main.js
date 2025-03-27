@@ -12,11 +12,20 @@ document.addEventListener("DOMContentLoaded", function () {
     ease: "power2.out"
   };
   
+
   const headingAnimation = {
     opacity: 0,
     scale: 0.7,
     duration: 0.05
   };
+
+  const headerElements={
+    opacity:0,stagger:0.1,delay:0.4
+  }
+  // icon links
+  gsap.from(".icon-link",headerElements)
+  gsap.from(".nav-item",headerElements)
+  gsap.from("#nav-btn",headerElements)
 
   // Hero section animations
   gsap.from("h1 .word", {
