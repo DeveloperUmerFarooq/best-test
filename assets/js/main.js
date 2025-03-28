@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
          .from("#about-btn-2", { x: 10, duration: 1 }, "-=1");
 
   
-
+  
   // About heading
   gsap.from("#about-heading", {
     ...headingAnimation,
@@ -73,6 +73,19 @@ document.addEventListener("DOMContentLoaded", function () {
       scrub: 2
     }
   });
+
+  //faq section 
+  // faq heading
+  gsap.from("#faq-heading",{
+    ...headingAnimation,
+    scrollTrigger: {
+      trigger: "#faq-section",
+      start: "top 90%",
+      end: "center 80%",
+      scrub: 2
+    }
+  });
+
 
   // Why Us section
   gsap.from("#why-us-heading", {

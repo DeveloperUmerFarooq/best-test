@@ -207,11 +207,11 @@ header{
     outline: none !important;
 }
 
-#why-us{
+#why-us,#faq-section{
 
     text-shadow: var(--text-shadow);
 }
-#about-side-text,#about-below-text:hover{
+#about-side-text,#about-below-text:hover,#faq-heading:hover{
     text-shadow: var(--hover-text-shadow);
 }
 .heading{
@@ -241,6 +241,12 @@ header{
     animation-range-end: entry 100%;
     transform-style: preserve-3d;
     will-change: transform, opacity; 
+}
+.accordion-item{
+    animation:card-animation both;
+    animation-timeline: view();
+    animation-range-start: entry 0%;
+    animation-range-end: entry 130%;
 }
 .card:hover{
     box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
