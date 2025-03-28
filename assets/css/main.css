@@ -7,7 +7,6 @@
     --hover-text-shadow:6px 6px 12px rgba(0, 0, 0, 0.7) ;
     --border-image:linear-gradient(90deg,hsl(225, 100%, 41%, 0.5),hsl(0, 100%, 50%, 0.5));
     --gradient:linear-gradient(90deg, var(--color3), var(--color1));
-    /* --gradient:linear-gradient(90deg,hsl(225, 100%, 41%, 1),hsl(0, 100%, 50%, 1)); */
     --reverse-gradient:linear-gradient(90deg, var(--color1), var(--color3));
 }
 @font-face {
