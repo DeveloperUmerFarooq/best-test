@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
     scrollTrigger: {
       trigger: "#faq-section",
       start: "top 90%",
-      end: "center 80%",
+      end: "center 90%",
       scrub: 2
     }
   });
