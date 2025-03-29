@@ -330,11 +330,24 @@ header{
       width: 50px !important;
       height: 50px !important;
     }
+    .card-text,.justify{
+        text-align: center;
+    }
+    p{
+        text-align: start !important;
+    }
+    
   }
   
   @media (max-width: 576px) {
     lottie-player {
       width: 45px !important;
       height: 45px !important;
+    }
+    .card-text,.justify{
+        text-align: center;
+    }
+    p{
+        text-align: start !important;
     }
   }
