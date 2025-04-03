@@ -15,9 +15,6 @@
     src: url('../Geoform-Bold-BF6556c6e7190d1.otf') format('opentype');
     font-weight: normal;
 }
-.txt-primary{
-    color: var(--color3) !important;
-}
 * {
     margin: 0;
     padding: 0;
@@ -32,13 +29,6 @@ body{
     background: var(--gradient);
     /* background:var(--color4) !important; */
 }
-footer{
-    background-color: var(--color4);
-}
-footer a{
-    text-decoration: none;
-    color: var(--color2);
-}
 video {
     position: fixed;
     top: 0;
@@ -47,6 +37,13 @@ video {
     height: 100%;
     object-fit: cover;
     z-index: -1;
+}
+footer{
+    background-color: var(--color4);
+}
+footer a{
+    text-decoration: none;
+    color: var(--color2);
 }
 #why-us,#footer-section,#map-section{
     position: sticky;
