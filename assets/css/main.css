@@ -20,6 +20,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Liberation Sans";
+    /* font-family: "geoform"; */
     scroll-behavior: smooth;
 }
 *::-webkit-scrollbar{
