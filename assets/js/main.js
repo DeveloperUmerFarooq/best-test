@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
   gsap.from("#map", {
     ...simpleFadeUp,
     scrollTrigger: {
-      trigger: "#map",
+      trigger: "#map-section",
       start: "top bottom",
       end: "top 70%",
       scrub: true,
