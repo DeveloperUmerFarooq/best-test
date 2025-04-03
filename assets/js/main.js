@@ -1,7 +1,6 @@
 const lenis = new Lenis({
   autoRaf: true,
 });
-document.addEventListener("DOMContentLoaded", function () {
   // Split text animation
   const text = SplitType.create("#title", { types: "words" });
 
@@ -125,4 +124,4 @@ document.addEventListener("DOMContentLoaded", function () {
       toggleActions: "play none none reverse",
     },
   });
-});
+
