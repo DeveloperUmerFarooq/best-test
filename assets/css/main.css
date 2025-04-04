@@ -414,7 +414,7 @@ p,
     height: 50vh;
     padding: 0 2rem;
     cursor: pointer;
-    animation: slide 10s linear infinite;
+    animation: slide 20s linear infinite;
 }
 
 .slides .card {
