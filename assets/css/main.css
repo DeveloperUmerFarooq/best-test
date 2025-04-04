@@ -423,7 +423,7 @@ p,
     height: 50vh;
     padding: 0 2rem;
     cursor: pointer;
-    animation: slide 20s linear infinite;
+    animation: slide 15s linear infinite;
 }
 
 .slides .card {
@@ -445,7 +445,7 @@ p,
     }
 
     to {
-        transform: translateX(calc(-1 * var(--width) * var(--total)));
+        transform: translateX(-50%);
     }
 }
 
