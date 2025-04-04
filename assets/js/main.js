@@ -85,6 +85,18 @@ gsap.from("#faq-heading", {
   },
 });
 
+//services section
+//services heading
+gsap.from("#service-heading", {
+  ...headingAnimation,
+  scrollTrigger: {
+    trigger: "#services-section",
+    start: "top 90%",
+    end: "center 90%",
+    scrub: 2,
+  },
+});
+
 // Why Us section
 gsap.from("#why-us-heading", {
   ...headingAnimation,
