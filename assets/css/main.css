@@ -419,14 +419,12 @@ p,
 
 .slides .card {
     width: var(--width);
-    height: var(--height);
+    height: 100%;
 }
-.slides:hover .card{
+.slides:hover .card:not(:hover){
     filter: grayscale(1);
 }
-.slides:hover .card:hover{
-    filter: grayscale(0);
-}
+
 .slides:hover {
     animation-play-state: paused;
 }
