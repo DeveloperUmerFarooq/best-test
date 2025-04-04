@@ -25,7 +25,9 @@
     /* font-family: "geoform"; */
     scroll-behavior: smooth;
 }
-
+.accordion-button::after{
+    display: none;
+}
 *::-webkit-scrollbar {
     display: none;
 }
