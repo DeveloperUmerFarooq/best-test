@@ -419,7 +419,7 @@ p,
 
 .slides .card {
     width: var(--width);
-    height: 100%;
+    height: var(--height);
 }
 .slides:hover .card:not(:hover){
     filter: grayscale(1);
