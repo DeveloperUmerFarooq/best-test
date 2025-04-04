@@ -421,6 +421,12 @@ p,
     width: var(--width);
     height: var(--height);
 }
+.slides:hover .card{
+    filter: grayscale(1);
+}
+.slides:hover .card:hover{
+    filter: grayscale(0);
+}
 .slides:hover {
     animation-play-state: paused;
 }
