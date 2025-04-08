@@ -115,7 +115,7 @@ const simpleFadeUp = {
   duration: 0.3,
 };
 
-gsap.from("#map", {
+gsap.from("#maps-container", {
   ...simpleFadeUp,
   scrollTrigger: {
     trigger: "#map-section",
