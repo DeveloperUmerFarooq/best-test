@@ -6,7 +6,7 @@
     --text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     --hover-text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
     --border-image: linear-gradient(90deg, hsl(225, 100%, 41%, 0.5), hsl(0, 100%, 50%, 0.5));
-    /* --border-image:linear-gradient(90deg,hsl(240, 3%, 13%,0.5),hsl(225, 100%, 10%, 0.8)); */
+    --border-image:linear-gradient(90deg,hsl(240, 3%, 13%,0.5),hsl(225, 100%, 10%, 0.8));
     --gradient: linear-gradient(90deg, var(--color3), var(--color1));
     --reverse-gradient: linear-gradient(90deg, var(--color1), var(--color3));
 }
@@ -36,7 +36,7 @@
 
 body {
     background: var(--gradient);
-    /* background:var(--color4) !important; */
+    background:var(--color4) !important;
 }
 
 video {
@@ -213,6 +213,7 @@ header {
     position: relative;
     color: var(--color2) !important;
     text-shadow: var(--text-shadow);
+    display: inline !important;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
 }

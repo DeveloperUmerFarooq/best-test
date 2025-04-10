@@ -122,6 +122,5 @@ gsap.from("#footer", {
     start: "top bottom",
     end: "top 80%",
     scrub: true,
-    toggleActions: "play none none reverse",
   },
 });
