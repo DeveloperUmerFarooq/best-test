@@ -115,17 +115,6 @@ const simpleFadeUp = {
   duration: 0.3,
 };
 
-gsap.from("#maps-container", {
-  ...simpleFadeUp,
-  scrollTrigger: {
-    trigger: "#map-section",
-    start: "top bottom",
-    end: "top 70%",
-    scrub: true,
-    toggleActions: "play none none reverse",
-  },
-});
-
 gsap.from("#footer", {
   ...simpleFadeUp,
   scrollTrigger: {
