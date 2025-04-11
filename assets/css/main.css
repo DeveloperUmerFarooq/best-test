@@ -143,8 +143,8 @@ header {
 }
 
 .glassmorphism {
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
     background-color: rgba(255, 255, 255, 0.1) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
@@ -189,6 +189,7 @@ header {
     height: 100%;
     transform-origin: right;
     background-color: var(--color4);
+    background: var(--gradient);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
@@ -276,9 +277,7 @@ header {
     font-size: clamp(0.8rem, 3.5vw, 1.7rem);
 }
 
-.justify,
-p,
-.card-text {
+.justify{
     text-align: justify;
 }
 
