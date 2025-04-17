@@ -63,10 +63,6 @@ footer a {
 #map-section {
     position: sticky;
 }
-
-#map-section {
-    top: 0;
-}
 #hero-button {
     font-size: 1.2rem;
 }
@@ -189,7 +185,7 @@ header {
     height: 100%;
     transform-origin: right;
     background-color: var(--color4);
-    background: var(--gradient);
+    background: var(--color4);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
 }
@@ -372,8 +368,12 @@ header {
     color: var(--color2) !important;
     text-shadow: var(--text-shadow);
 }
+.hover-opacity:hover {
+    opacity: 0.75;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
 swiper-slide {
-    background-color: red;
     height: 300px;
     width: 100%;
     display: flex;
@@ -394,7 +394,7 @@ swiper-slide {
     background-color: white !important;
   }
   swiper-container::part(bullet) {
-    background-color: red !important;
+    background-color: var(--color3) !important;
   }
   swiper-container::part(bullet-active) {
     background-color: white;
