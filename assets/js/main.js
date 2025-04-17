@@ -11,12 +11,6 @@ const fadeUp = {
   ease: "power2.out",
 };
 
-const headingAnimation = {
-  opacity: 0,
-  scale: 0.7,
-  duration: 0.05,
-};
-
 const headerElements = {
   opacity: 0,
   stagger: 0.1,
@@ -41,21 +35,4 @@ gsap.from("#sub-title, #hero-button, #service-btn", {
   duration: 0.95,
   delay: 0.6,
   stagger: 0.1,
-});
-
-// Map and footer
-const simpleFadeUp = {
-  opacity: 0,
-  y: 100,
-  duration: 0.3,
-};
-
-gsap.from("#footer", {
-  ...simpleFadeUp,
-  scrollTrigger: {
-    trigger: "#footer",
-    start: "top bottom",
-    end: "top 80%",
-    scrub: true,
-  },
 });

@@ -35,7 +35,6 @@
 }
 
 body {
-    background: var(--gradient);
     background:var(--color4) !important;
 }
 
