@@ -192,7 +192,7 @@
     <div class="home-page">
       <!-- Hero Section -->
 
-      <section class="hero-section position-relative overflow-hidden">
+      <section class="hero-section position-relative overflow-hidden h-auto">
         <div class="hero-overlay"></div>
         <div class="container position-relative z-index-1">
           <div class="row min-vh-80 align-items-center py-5">
@@ -205,36 +205,27 @@
                 Professional auto repair and tire services with ASE certified
                 mechanics. We keep your vehicle running smoothly and safely.
               </p>
-              <div
-                class="d-flex flex-column flex-sm-row gap-3 justify-content-center justify-content-lg-start"
-              >
-                <button class="button glassmorphism" id="hero-button">
-                  <span
-                    class="d-flex gap-1 align-items-center justify-content-center"
-                  >
+              <div class="d-flex flex-column flex-md-row align-items-md-center gap-3 mt-4 justify-content-start">
+                <!-- Book Appointment Button -->
+                <button
+                  class="btn glassmorphism px-4 py-3 fw-semibold text-white d-flex align-items-center gap-2"
+                  id="hero-button"
+                >
+                  <span>
                     Book An Appointment
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="size-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                      />
-                    </svg>
+                    <i class="uil uil-arrow-right text-white fs-5"></i>
                   </span>
                 </button>
+              
+                <!-- Our Services Button -->
                 <a
                   href="#services"
-                  class="btn btn-outline-light btn-lg d-flex align-items-center"
+                  class="btn btn-outline-light fw-semibold px-4 py-3 d-flex align-items-center gap-2"
                   id="service-btn"
+                  style="white-space: nowrap;"
                 >
-                  Our Services <i class="bi bi-tools ms-2"></i>
+                <i class="uil uil-wrench"></i>
+                  Our Services
                 </a>
               </div>
             </div>
@@ -384,7 +375,7 @@
           for every customer
         </p>
         <swiper-container
-          class="MySwiper"
+          class="MySwiper my-5 pt-3"
           space-between="10"
           autoplay='{"delay": 3000, "disableOnInteraction": false}'
           mousewheel="true"
@@ -535,8 +526,8 @@
           <div class="row gy-4 gx-4 justify-content-center">
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -553,7 +544,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Expert Technicians</h4>
+                  <h4 class="card-title fw-bold text-center">Expert Technicians</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -568,8 +559,8 @@
 
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -583,7 +574,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Comprehensive Services</h4>
+                  <h4 class="card-title fw-bold text-center">Comprehensive Services</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -598,8 +589,8 @@
 
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -613,7 +604,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Affordable Tires</h4>
+                  <h4 class="card-title fw-bold text-center">Affordable Tires</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -628,8 +619,8 @@
 
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -646,7 +637,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Efficient Service</h4>
+                  <h4 class="card-title fw-bold text-center">Efficient Service</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -661,8 +652,8 @@
 
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -679,7 +670,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Customer Satisfaction</h4>
+                  <h4 class="card-title fw-bold text-center">Customer Satisfaction</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -694,8 +685,8 @@
 
             <div class="col-md-6 col-lg-4">
               <div class="card why-cards glassmorphism h-100">
-                <div class="card-body p-4 text-center">
-                  <div class="icon-wrapper mb-3">
+                <div class="card-body p-4">
+                  <div class="icon-wrapper mb-3 text-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
@@ -716,7 +707,7 @@
                       />
                     </svg>
                   </div>
-                  <h4 class="card-title fw-bold">Transparent Pricing</h4>
+                  <h4 class="card-title fw-bold text-center">Transparent Pricing</h4>
                   <div
                     class="divider bg-light mx-auto my-3"
                     style="height: 2px; width: 60px"
@@ -859,14 +850,14 @@
       <div class="container py-4">
         <div class="row">
           <!-- Left Info Section -->
-          <div class="col-lg-6">
+          <div class="col-lg-6 text-center text-lg-start">
             <h2 class="display-5 fw-bold mb-4 text-white">
               Frequently Asked <span class="text-primary">Questions</span>
             </h2>
-            <p class="lead text-white">
+            <p class="lead text-white text-center text-lg-start">
               Get answers to common questions about our auto repair services
             </p>
-            <p class="text-white">
+            <p class="text-white text-center text-lg-start">
               Can't find what you're looking for?
               <a href="#" class="text-primary">Contact us</a> directly and
               we'll be happy to help.
@@ -882,10 +873,10 @@
           <div class="col-lg-6 mt-lg-4">
             <div class="accordion" id="faqAccordion">
               <!-- Question 1 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button bg-dark text-light"
+                    class="accordion-button glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq1"
@@ -907,10 +898,10 @@
               </div>
 
               <!-- Question 2 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq2"
@@ -932,10 +923,10 @@
               </div>
 
               <!-- Question 3 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq3"
@@ -957,10 +948,10 @@
               </div>
 
               <!-- Question 4 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq4"
@@ -982,10 +973,10 @@
               </div>
 
               <!-- Question 5 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq5"
@@ -1006,10 +997,10 @@
               </div>
 
               <!-- Question 6 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq6"
@@ -1030,10 +1021,10 @@
               </div>
 
               <!-- Question 7 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq7"
@@ -1054,10 +1045,10 @@
               </div>
 
               <!-- Question 8 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq8"
@@ -1078,10 +1069,10 @@
               </div>
 
               <!-- Question 9 -->
-              <div class="accordion-item bg-dark border-light mb-3">
+              <div class="accordion-item glassmorphism border-light mb-3">
                 <h3 class="accordion-header">
                   <button
-                    class="accordion-button collapsed bg-dark text-light"
+                    class="accordion-button collapsed glassmorphism text-light"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#faq9"
@@ -1109,7 +1100,7 @@
     </div>
     
     <!-- Map Section -->
-    <div class="pt-1 bg-dark" id="map-section">
+    <div class="pt-1 glassmorphism" id="map-section">
       <div class="container-fluid">
         <div class="row" id="maps-container">
           <!-- Map Column -->
