@@ -152,7 +152,6 @@ header {
 
 .button {
     color: var(--color2);
-    padding: 5px 1rem;
     border-radius: 10px !important;
     font-size: 1rem;
     position: relative;
@@ -168,10 +167,6 @@ header {
     position: relative;
     text-shadow: var(--text-shadow);
     z-index: 2;
-}
-
-#nav-btn {
-    padding: 8px 12px;
 }
 
 .button::after {
