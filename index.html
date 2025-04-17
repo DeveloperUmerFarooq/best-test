@@ -375,11 +375,11 @@
           for every customer
         </p>
         <swiper-container
-          class="MySwiper my-5 pt-3"
+          class="MySwiper my-5 pt-3 mx-2"
           space-between="10"
           autoplay='{"delay": 3000, "disableOnInteraction": false}'
           mousewheel="true"
-          navigation="true"
+          navigation="false"
           keyboard="true"
           loop="true"
           breakpoints='{
@@ -396,7 +396,7 @@
                   <i class="uil uil-tear text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">Oil Changes</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Regular oil changes extend engine life and improve
                   performance. We use high-quality oils and filters.
                 </p>
@@ -411,7 +411,7 @@
                   <i class="uil uil-car-sideview text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">Tire Services</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Tire sales, rotation, balancing, alignment, and repair from
                   top brands at competitive prices.
                 </p>
@@ -426,7 +426,7 @@
                   <i class="uil uil-shield-check text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">Brake Services</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Complete brake inspection, repair, and replacement to ensure
                   your safety on the road.
                 </p>
@@ -441,7 +441,7 @@
                   <i class="uil uil-setting text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">Engine Repair</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Diagnostics and repairs for all engine issues, from minor
                   tune-ups to major overhauls.
                 </p>
@@ -456,7 +456,7 @@
                   <i class="uil uil-snowflake text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">AC Services</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Keep cool with our AC inspection, recharge, and repair
                   services for all vehicle makes.
                 </p>
@@ -471,7 +471,7 @@
                   <i class="uil uil-bolt text-primary fs-1"></i>
                 </div>
                 <h4 class="card-title fw-bold">Electrical Systems</h4>
-                <p class="card-text">
+                <p class="card-text text-start">
                   Diagnosis and repair of all electrical components including
                   batteries, alternators, and starters.
                 </p>
@@ -481,27 +481,15 @@
           >
         </swiper-container>
         <div class="d-flex justify-content-center">
-          <button class="button glassmorphism mt-lg-5 mt-3" id="hero-button">
-            <span
-              class="d-flex gap-1 align-items-center justify-content-center"
-            >
-              Book An Appointment
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
-                />
-              </svg>
-            </span>
-          </button>
+          <button
+                  class="btn button glassmorphism px-4 py-3 fw-semibold text-white d-flex align-items-center gap-2"
+                  id="hero-button"
+                >
+                  <span>
+                    Book An Appointment
+                    <i class="uil uil-arrow-right text-white fs-5"></i>
+                  </span>
+                </button>
         </div>
       </section>
       <!-- Why Us Section -->
@@ -830,21 +818,6 @@
         </div>
       </div>
     </section>
-
-      <section class="cta-section py-5 text-white" id="cta-section">
-        <div class="container py-5 text-center glassmorphism rounded-3">
-          <h2 class="fw-bold mb-4">Ready to Experience the Best Auto Care?</h2>
-          <p class="lead text-center mb-5">
-            Join our family of satisfied customers in Laurel and beyond
-          </p>
-          <div class="d-flex justify-content-center">
-            <button class="button glassmorphism mt-3">
-              <span> Schedule now </span>
-            </button>
-          </div>
-        </div>
-      </section>
-
     <!-- Faq section -->
     <section class="py-5" id="faq-section">
       <div class="container py-4">
@@ -1094,6 +1067,20 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section -->
+    <section class="cta-section py-5 text-white" id="cta-section">
+      <div class="container py-5 text-center glassmorphism rounded-3">
+        <h2 class="fw-bold mb-4">Ready to Experience the Best Auto Care?</h2>
+        <p class="lead text-center mb-5">
+          Join our family of satisfied customers in Laurel and beyond
+        </p>
+        <div class="d-flex justify-content-center">
+          <button class="button glassmorphism mt-3">
+            <span> Schedule now </span>
+          </button>
         </div>
       </div>
     </section>
