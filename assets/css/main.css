@@ -148,7 +148,7 @@ header {
 
 .button {
     color: var(--color2);
-    border-radius: 10px !important;
+    border-radius: 5px !important;
     font-size: 1rem;
     position: relative;
     overflow: hidden;
