@@ -30,7 +30,7 @@ gsap.from("h1 .word", {
   delay: 0.4,
 });
 
-gsap.from("#sub-title, #hero-button, #service-btn", {
+gsap.from("#sub-title, .hero-button", {
   ...fadeUp,
   duration: 0.95,
   delay: 0.6,
