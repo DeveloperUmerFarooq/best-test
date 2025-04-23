@@ -95,7 +95,6 @@ footer a {
     z-index: 1;
 }
 
-#about-section,
 #services-section {
     text-shadow: var(--text-shadow);
     position: sticky;
@@ -133,7 +132,9 @@ h1:hover {
 .hero-section h3:hover {
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.7);
 }
-
+#about-section{
+    overflow-x: hidden;
+}
 header {
     position: sticky !important;
     top: 0 !important;
@@ -256,9 +257,6 @@ header {
     text-wrap: pre-line;
 }
 
-#about-text {
-    font-size: clamp(0.8rem, 3.5vw, 1.7rem);
-}
 
 .justify{
     text-align: justify;
@@ -314,15 +312,6 @@ header {
 
 .cta-section {
     background: linear-gradient(--reverse-gradient) !important;
-}
-
-#about-btn-1,
-#about-btn-2 {
-    font-size: 1rem;
-}
-
-#about-top-text {
-    font-size: clamp(1.2rem, 3vw, 1.7rem);
 }
 
 .icon-link {
