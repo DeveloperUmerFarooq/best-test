@@ -15,7 +15,7 @@ const fadeUp = {
 const headerElements = {
   opacity: 0,
   x:-10,
-  stagger: 0.05,
+  stagger: 0.1,
   delay: 0.4,
 };
 
