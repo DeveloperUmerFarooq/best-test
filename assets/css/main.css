@@ -280,8 +280,8 @@ header {
     transition: .3s ease-in;
     animation: card-animation both;
     animation-timeline: view();
-    animation-range-start: entry 0%;
-    animation-range-end: entry 100%;
+    animation-range-start: cover 0%;
+    animation-range-end: cover 60%;
     transform-style: preserve-3d;
     will-change: transform, opacity;
 }
