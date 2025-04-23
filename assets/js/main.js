@@ -19,7 +19,6 @@ const headerElements = {
 // icon links
 gsap.from(".icon-link", headerElements);
 gsap.from(".nav-item", headerElements);
-gsap.from("#nav-btn", headerElements);
 
 // Hero section animations
 gsap.from("h1 .word", {
