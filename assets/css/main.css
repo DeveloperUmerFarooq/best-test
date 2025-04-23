@@ -38,6 +38,7 @@ body {
     background:var(--color4) !important;
     /* background-color: var(--color3) !important; */
     /* background:var(--gradient) !important; */
+    overflow-x: hidden;
 }
 
 video {
