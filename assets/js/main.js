@@ -4,24 +4,26 @@ const lenis = new Lenis({
 // Split text animation
 const text = SplitType.create(".title", { types: "words" });
 
-// Common animation properties
+//fade up
 const fadeUp = {
   autoAlpha: 0,
   y: 50,
   ease: "power2.out",
 };
 
+//fade left
 const headerElements = {
   opacity: 0,
   x:-10,
   stagger: 0.05,
   delay: 0.4,
 };
-// icon links
+
+//fade left elements
 gsap.from(".icon-link", headerElements);
 gsap.from(".nav-item,.contact-card", headerElements);
 
-// Hero section animations
+//fade up elements
 gsap.from("h1 .word", {
   ...fadeUp,
   duration: 0.7,
