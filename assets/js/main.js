@@ -21,7 +21,7 @@ const headerElements = {
 
 //fade left elements
 gsap.from(".icon-link", headerElements);
-gsap.from(".nav-item,.contact-card", headerElements);
+gsap.from(".nav-item", headerElements);
 
 //fade up elements
 gsap.from("h1 .word", {
@@ -32,7 +32,7 @@ gsap.from("h1 .word", {
   delay: 0.4,
 });
 
-gsap.from(".sub-title, .hero-button", {
+gsap.from(".sub-title, .hero-button,.contact-card", {
   ...fadeUp,
   duration: 0.95,
   delay: 0.6,
