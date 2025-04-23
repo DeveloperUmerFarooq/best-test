@@ -25,7 +25,9 @@
     font-family: "geoform";
     scroll-behavior: smooth;
 }
-
+*::not(div){
+    overflow-x: hidden;
+}
 .accordion-button::after {
     display: none;
 }
@@ -38,7 +40,6 @@ body {
     background:var(--color4) !important;
     /* background-color: var(--color3) !important; */
     /* background:var(--gradient) !important; */
-    overflow-x: hidden;
 }
 
 video {
