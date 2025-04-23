@@ -2,11 +2,11 @@ const lenis = new Lenis({
   autoRaf: true,
 });
 // Split text animation
-const text = SplitType.create("#title", { types: "words" });
+const text = SplitType.create(".title", { types: "words" });
 
 // Common animation properties
 const fadeUp = {
-  opacity: 0,
+  autoAlpha: 0,
   y: 50,
   ease: "power2.out",
 };
@@ -14,12 +14,12 @@ const fadeUp = {
 const headerElements = {
   opacity: 0,
   x:-10,
-  stagger: 0.1,
+  stagger: 0.05,
   delay: 0.4,
 };
 // icon links
 gsap.from(".icon-link", headerElements);
-gsap.from(".nav-item", headerElements);
+gsap.from(".nav-item,.contact-card", headerElements);
 
 // Hero section animations
 gsap.from("h1 .word", {
@@ -30,7 +30,7 @@ gsap.from("h1 .word", {
   delay: 0.4,
 });
 
-gsap.from("#sub-title, .hero-button", {
+gsap.from(".sub-title, .hero-button", {
   ...fadeUp,
   duration: 0.95,
   delay: 0.6,

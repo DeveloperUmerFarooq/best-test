@@ -399,7 +399,6 @@ swiper-slide {
         transform: translateX(-50%);
     }
 } */
-
 @keyframes logo {
     from {
         opacity: 0;
