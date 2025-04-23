@@ -94,6 +94,13 @@ footer a {
     border-image: fill 1 var(--border-image);
     z-index: 1;
 }
+.contact-hero{
+    background: url("https://wallpapers.com/images/hd/garage-background-7xns1q2orkv0hn07.jpg") no-repeat bottom fixed;
+    overflow-x: hidden;
+    color: var(--color2);
+    border-image: fill 1 var(--border-image);
+    z-index: 1;
+}
 
 #services-section {
     text-shadow: var(--text-shadow);
