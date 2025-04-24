@@ -150,8 +150,8 @@ header {
 }
 
 .glassmorphism {
-    backdrop-filter: blur(10px) !important;
-    -webkit-backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
     background-color: rgba(255, 255, 255, 0.1) !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) !important;
@@ -283,7 +283,6 @@ header {
     animation-range-start: cover 0%;
     animation-range-end: cover 60%;
     transform-style: preserve-3d;
-    will-change: transform, opacity;
 }
 
 .accordion-item {
