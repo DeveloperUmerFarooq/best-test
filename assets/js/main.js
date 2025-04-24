@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
   //fade left delayed
   const headerElements = {
     ...fadeLeft,
-    x:-10,
-    delay: 0.4,
+    delay: 0.5,
+    stagger:0.1,
   };
   
   //fade left elements
