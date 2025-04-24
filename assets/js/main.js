@@ -19,12 +19,12 @@ const fadeRight = {
 //fade left
 const fadeLeft={
   autoAlpha: 0,
-  x:-10,
   ease:"power2.out"
 }
 //fade left delayed
 const headerElements = {
   ...fadeLeft,
+  x:-10,
   stagger: 0.1,
   delay: 0.4,
 };
@@ -41,6 +41,12 @@ gsap.from("h1 .word", {
   ease: "back.out(1.7)",
   delay: 0.4,
 });
+
+gsap.from(".hero-image",{
+  scale:0.5,
+  ...fadeLeft,
+  delay:0.5
+})
 
 gsap.from(".sub-title, .hero-button,.contact-card", {
   ...fadeUp,
@@ -101,4 +107,27 @@ gsap.utils.toArray(".fade-right").forEach((el)=>{
       end:"bottom bottom"
     }
   })
+})
+
+gsap.utils.toArray(".fade-left").forEach((el)=>{
+  gsap.from(el,{
+    ...fadeLeft,
+    x:-50,
+    scrollTrigger:{
+      trigger:el,
+      scrub:true,
+      start:"top bottom",
+      end:"bottom bottom"
+    }
+  })
+})
+
+gsap.to("#rotate",{
+  rotate:0,
+  scrollTrigger:{
+    trigger:"#story-section",
+    scrub:true,
+    start:"top bottom",
+    end:"bottom center",
+  }
 })
