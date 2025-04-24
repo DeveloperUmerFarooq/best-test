@@ -17,9 +17,14 @@ const fadeRight = {
   ease: "power2.out",
 };
 //fade left
-const headerElements = {
+const fadeLeft={
   autoAlpha: 0,
   x:-10,
+  ease:"power2.out"
+}
+//fade left delayed
+const headerElements = {
+  ...fadeLeft,
   stagger: 0.1,
   delay: 0.4,
 };
