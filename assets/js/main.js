@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   
-  gsap.utils.toArray(".card:not(.service-card)").forEach((card) => {
+  gsap.utils.toArray(".card:not(.service-card,.team-card)").forEach((card) => {
     gsap.from(card, {
       scale: 0.7,
       autoAlpha: 0,

@@ -478,7 +478,7 @@ swiper-slide {
   .founder-image {
     border-radius: 20px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-    transform: rotate(-3deg);
+    transform: rotate(-5deg);
     transition: transform 0.3s ease;
     max-height: 500px;
     object-fit: cover;
