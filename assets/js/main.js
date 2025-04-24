@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.from(card, {
       scale: 0.7,
       autoAlpha: 0,
+      x:40,
       ease: "power4.out",
       scrollTrigger: {
         trigger: card,
@@ -81,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     gsap.from(item,{
       scale:0.5,
       x:40,
-      opacity:0,
+      autoAlpha: 0,
       ease: "power4.out",
       scrollTrigger: {
         trigger: item,
