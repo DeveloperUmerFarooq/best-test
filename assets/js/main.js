@@ -43,7 +43,7 @@ gsap.from("h1 .word", {
 });
 
 gsap.from(".hero-image",{
-  scale:0.5,
+  scale:0.8,
   ...fadeLeft,
   delay:0.5
 })
