@@ -10,10 +10,15 @@ const fadeUp = {
   y: 50,
   ease: "power2.out",
 };
-
+//fade right
+const fadeRight = {
+  autoAlpha: 0,
+  x: 50,
+  ease: "power2.out",
+};
 //fade left
 const headerElements = {
-  opacity: 0,
+  autoAlpha: 0,
   x:-10,
   stagger: 0.1,
   delay: 0.4,
@@ -38,3 +43,57 @@ gsap.from(".sub-title, .hero-button,.contact-card", {
   delay: 0.6,
   stagger: 0.1,
 });
+
+
+gsap.utils.toArray(".card:not(.service-card)").forEach((card) => {
+  gsap.from(card, {
+    scale: 0.7,
+    autoAlpha: 0,
+    ease: "power4.out",
+    scrollTrigger: {
+      trigger: card,
+      scrub: true,
+      start: "top bottom",
+      end: "center bottom",       
+    }
+  });
+});
+
+gsap.utils.toArray(".accordion-item").forEach((item)=>{
+  gsap.from(item,{
+    scale:0.5,
+    x:40,
+    opacity:0,
+    ease: "power4.out",
+    scrollTrigger: {
+      trigger: item,
+      scrub: true,
+      start: "top bottom",
+      end: "bottom 70%",       
+    }
+  })
+})
+
+gsap.utils.toArray(".fade-up").forEach((el)=>{
+  gsap.from(el,{
+    ...fadeUp,
+    scrollTrigger:{
+      trigger:el,
+      scrub:true,
+      start:"top bottom",
+      end:"bottom bottom"
+    }
+  })
+})
+
+gsap.utils.toArray(".fade-right").forEach((el)=>{
+  gsap.from(el,{
+    ...fadeRight,
+    scrollTrigger:{
+      trigger:el,
+      scrub:true,
+      start:"top bottom",
+      end:"bottom bottom"
+    }
+  })
+})
