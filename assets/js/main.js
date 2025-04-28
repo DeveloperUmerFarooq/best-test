@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
         trigger:el,
         scrub:true,
         start:"top bottom",
-        end:"bottom bottom"
+        end:"bottom 70%"
       }
     })
   })
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
         trigger:el,
         scrub:true,
         start:"top bottom",
-        end:"bottom bottom"
+        end:"bottom 75%"
       }
     })
   })
@@ -125,7 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
         trigger:el,
         scrub:true,
         start:"top bottom",
-        end:"bottom bottom"
+        end:"bottom 70%"
       }
     })
   })
