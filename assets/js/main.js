@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
       trigger:"#story-section",
       scrub:true,
       start:"top bottom",
-      end:"bottom center",
+      end:"bottom 45%",
     }
   })
 })
