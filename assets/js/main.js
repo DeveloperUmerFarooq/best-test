@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.from(".icon-link", headerElements);
   gsap.from(".nav-item", headerElements);
   
-  //fade up elements
+  //Hero text
   gsap.from("h1 .word", {
     ...fadeUp,
     duration: 0.7,
