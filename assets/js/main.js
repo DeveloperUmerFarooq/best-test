@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.querySelectorAll(".stat").forEach((stat) => {
-  let target = +stat.getAttribute("data-target");
+  let target = stat.getAttribute("data-target");
   let obj = { val: 0 };
 
   ScrollTrigger.create({
@@ -149,7 +149,7 @@ document.querySelectorAll(".stat").forEach((stat) => {
     start: "top bottom",
     end: "bottom 20%",
     onEnter: () => {
-      obj.val = 0; // Reset the value when entering
+      obj.val = 0;
       gsap.to(obj, {
         val: target,
         duration: 1,
@@ -161,7 +161,6 @@ document.querySelectorAll(".stat").forEach((stat) => {
     },
     onLeaveBack: () => {
       obj.val = 0;
-      stat.textContent = formatK(obj.val);
     },
   });
 });
