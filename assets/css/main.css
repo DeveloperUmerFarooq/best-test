@@ -41,7 +41,14 @@ body {
     /* background-color: var(--color3) !important; */
     /* background:var(--gradient) !important; */
 }
+.word {
+  white-space: nowrap; 
+  display: inline-flex;
+}
 
+.char {
+  display: inline-block;
+}
 video {
     position: fixed;
     top: 0;
