@@ -10,7 +10,7 @@ function raf(time) {
 requestAnimationFrame(raf);
 document.addEventListener("DOMContentLoaded", () => {
   // Split text animation
-  const text = SplitType.create(".title", { types: "words" });
+  const text = SplitType.create(".title", { types: "words , chars" });
 
   //fade up
   const fadeUp = {
@@ -41,10 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.from(".nav-item", headerElements);
 
   //Hero text
-  gsap.from("h1 .word", {
+  gsap.from("h1 .char", {
     ...fadeUp,
-    duration: 0.7,
-    stagger: 0.07,
+    duration: 0.4,
+    stagger: gsap.utils.distribute({
+    amount: 0.7,  
+    from: "start"  
+  }),
     ease: "back.out(1.7)",
     delay: 0.4,
   });
